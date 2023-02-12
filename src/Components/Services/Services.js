@@ -1,7 +1,6 @@
 import React from "react";
 import "./Services.css";
 import { BiCheck } from "react-icons/bi";
-import { FaAward } from "react-icons/fa";
 
 function Services() {
   return (

@@ -12,22 +12,24 @@ function Portfolio(props) {
             return (
               <article key={index} className="portfolio__item">
                 <div className="portfolio__item-image">
-                  <img
-                    className="frame"
-                    src={val.Image}
-                    title="instagramPage"
-                  />
+                  <img className="frame" src={val.Image} alt="instagramPage" />
                 </div>
                 <h3>{val.Name}</h3>
                 <div className="portfolio__item-cta">
                   {" "}
-                  <a href={val.Link} className="btn" target="blank">
+                  <a
+                    href={val.Link}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Live
                   </a>
                   <a
-                    href="https://www.youtube.com/"
+                    href={val.GitCode}
                     className="btn btn-primary"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Git Code
                   </a>

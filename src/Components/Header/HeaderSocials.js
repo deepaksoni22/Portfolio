@@ -7,11 +7,15 @@ function HeaderSocials() {
       <a
         href="https://www.linkedin.com/in/deepak-soni-103822251/"
         target="_blank"
-        rel="linkedin"
+        rel="noreferrer"
       >
         <FaLinkedin />
       </a>
-      <a href="https://github.com/deepaksoni22" target="_blank" rel="github">
+      <a
+        href="https://github.com/deepaksoni22"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithubSquare />
       </a>
     </div>

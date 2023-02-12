@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { FaAward, FaFreeCodeCamp } from "react-icons/fa";
+import { FaFreeCodeCamp } from "react-icons/fa";
 import { BiBusSchool } from "react-icons/bi";
 import { GiSchoolBag } from "react-icons/gi";
 import { MdOutlineSchool } from "react-icons/md";
@@ -18,7 +18,7 @@ function About() {
               id="image"
               // src="https://source.unsplash.com/400x400/?gym"
               src={ME}
-              alt="Aboout Image"
+              alt="Aboout"
             />
           </div>
         </div>

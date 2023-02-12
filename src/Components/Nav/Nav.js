@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import "./Nav.css";
 import { AiOutlineHome, AiOutlineMessage, AiOutlineUser } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
@@ -10,7 +9,7 @@ function Nav() {
   return (
     <nav>
       <a
-        href="#"
+        href="..."
         onClick={() => {
           setActiveNav("#");
         }}
