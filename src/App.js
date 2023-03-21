@@ -5,7 +5,6 @@ import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Services from "./Components/Services/Services";
 import Portfolio from "./Components/Portfolio/Portfolio";
-
 import Contact from "./Components/Contacts/Contacts";
 import Footer from "./Components/Footer/Footer";
 import instagramPage from "./assets/instagramPage.png";
@@ -18,6 +17,8 @@ import entertainmentWeb from "./assets/entertainmentWeb.png";
 import stopWatch from "./assets/stopWatch.png";
 import navbar from "./assets/navbar.png";
 import eCommerce from "./assets/eCommerce.png";
+import CardUi from "./assets/CardUi.png";
+import weatherApp from "./assets/weatherApp.png";
 
 function App() {
   const projects = [
@@ -66,6 +67,18 @@ function App() {
           Link: "https://web9529-7fb8c.firebaseapp.com/",
           Image: entertainmentWeb,
           GitCode: "https://github.com/deepaksoni22/Portfolio.git",
+        },
+        {
+          Name: "Weather App",
+          Link: "https://papaya-halva-6ae778.netlify.app/",
+          Image: weatherApp,
+          GitCode: "https://github.com/deepaksoni22/Weather-App",
+        },
+        {
+          Name: "Card UI",
+          Link: "https://serene-sunshine-580b09.netlify.app/",
+          Image: CardUi,
+          GitCode: "https://github.com/deepaksoni22/Card-UI",
         },
       ],
     },
