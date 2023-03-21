@@ -5,6 +5,7 @@ import { BiBusSchool } from "react-icons/bi";
 import { GiSchoolBag } from "react-icons/gi";
 import { MdOutlineSchool } from "react-icons/md";
 import ME from "../../assets/aboutImage.jpg";
+import internship from "../../assets/internship.pdf";
 
 function About() {
   return (
@@ -40,9 +41,21 @@ function About() {
               <small>B.C.A</small>
             </article>
             <article className="about__card">
-              <FaFreeCodeCamp className="about__icon" />
-              <h5>JavaScript</h5>
-              <small>Certificate</small>
+              <a
+                href="https://www.freecodecamp.org/certification/fcc145dae28-d94c-49dd-9d7c-093689899261/javascript-algorithms-and-data-structures"
+                target="_blank"
+              >
+                <FaFreeCodeCamp className="about__icon" />
+                <h5>JavaScript</h5>
+                <small>Certificate</small>
+              </a>
+            </article>
+            <article className="about__card">
+              <a href={internship} target="_blank">
+                <FaFreeCodeCamp className="about__icon" />
+                <h5>Internship</h5>
+                <small>Certificate</small>
+              </a>
             </article>
           </div>
           <p>
